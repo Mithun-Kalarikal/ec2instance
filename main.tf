@@ -7,8 +7,8 @@ terraform {
   }
 }
 provider "aws" {
-access_key="AKIAS75EMNJOR4ITCAYM"
-secret_key="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"
+access_key="**************************"
+secret_key="****************************"
   region = var.aws_region
 }
 resource "aws_instance" "myFirstInstance" {
