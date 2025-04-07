@@ -60,6 +60,9 @@ resource "aws_security_group" "jenkins-sg-2022" {
   tags= {
     Name = var.security_group
   }
+    tags= {
+    Name = var.security_group
+  }
 }
 
 
